@@ -6,7 +6,7 @@ import { Home } from "./pages/Home"
 import { Contact } from "./pages/Contact"
 import { About } from "./pages/About"
 import { NotFound } from "./pages/NotFound"
-import { Movies } from "./pages/Movies"
+import { Category } from "./pages/Category"
 
 
 
@@ -16,13 +16,12 @@ function App() {
       <BrowserRouter>
         <Header />
         <main className="container content">
-          1213
           <Routes>
             <Route path='*' element={<NotFound />} />
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
-            <Route path="/movies/:title" element={<Movies />} />
+            <Route path="/category/:name" element={<Category />} />
           </Routes>
 
         </main>
