@@ -5,3 +5,7 @@
 # Continued work on the project React Food
 
 <b>2.Second commit</b>Add react-router-dom v6,setting routing
+
+# Continued work on the project React Food
+
+<b>3.Third commit</b>Implemented main page with categories.
